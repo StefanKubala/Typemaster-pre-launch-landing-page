@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 0;
+
+  &-btn {
+    color: #000;
+    background-color: $color-third;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    transition: all 0.2s;
+
+    &:hover,
+    &:active {
+      color: #fff;
+      text-decoration: none;
+      background-color: #162542;
+      scale: 1.05;
+    }
+  }
+}
