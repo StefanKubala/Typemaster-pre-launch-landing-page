@@ -83,7 +83,7 @@ html {
 
 .primary {
   display: grid;
-  grid-template-columns: 1fr 2fr 1.5fr;
+  grid-template-columns: 1fr 2fr 1.3fr;
   grid-gap: 2rem;
   margin: 3rem 0; }
   .primary-img-overflow {
@@ -107,3 +107,26 @@ html {
     .primary-text-paragraph {
       font-size: 1.5rem;
       color: #7b8bad; }
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 4rem;
+  margin: 10rem 0; }
+  .features-card-holder {
+    background-color: #f16718;
+    width: 6.5rem;
+    height: 6.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.7rem;
+    margin-bottom: 5rem; }
+  .features-card-heading {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 3rem;
+    width: 78%; }
+  .features-card-text {
+    font-size: 1.6rem;
+    color: #7b8bad; }
