@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding-bottom: 3rem;
+  color: $color-secondary;
+
+  &-span {
+    font-weight: 700;
+  }
+}
